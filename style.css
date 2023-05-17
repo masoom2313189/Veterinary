@@ -1,0 +1,152 @@
+/* Navbar */
+#top-nav{
+    background-color: #daac00 !important;
+    padding: 10px 8%;
+}
+
+#logo-img{
+    width: 150px;
+}
+
+#search-box{
+    background-color: #fcc302;
+    color: white;
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    left: 45px;
+    box-shadow: 5px 10px 10px 0px #00000021;
+}
+
+#search-box::placeholder{
+    color: white;
+}
+.navbar-expand-lg .navbar-nav .nav-link {
+    font-size: 20px;
+    padding-left: 25px;
+    color: rgb(255, 255, 255);
+    font-weight: 500;
+}
+
+#search-btn{
+    border: 0;
+    border-radius: 0;
+    position: relative;
+    z-index: 99;
+    background-color: #00bec9;
+    color: white;
+}
+
+@media only screen and (max-width:990px){
+#search-form{
+    margin-top: 30px;
+    margin-bottom: 20px;
+    position: relative;
+    left: -20px;
+}
+}
+
+/* Banner */
+#banner{
+    background-color: #fcc302;
+    padding-bottom: 30px;
+    padding-top: 30px;
+}
+
+#banner h1{
+    font-size: 80px;
+    color: white;
+    margin-top: 100px;
+}
+
+#banner p {
+    font-size: 30px;
+    color: white;
+    line-height: normal;
+    margin-top: 20px;
+}
+
+#banner-btn-1{
+    background-color: #00bec9;
+    border: 3px solid #00bec9;
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+}
+
+#banner-btn-1:hover, #banner-btn-2:hover{
+    background-color: purple;
+    color: white;
+    border: 3px solid purple;
+}
+
+
+#banner-btn-2{
+    padding: 10px 20px;
+    color: white;
+    font-weight: bold;
+    margin-left: 20px;
+    border: 3px solid white;
+}
+
+@media only screen and (max-width:1230px){
+    #banner h1{
+        font-size: 70px;
+    }
+
+    #banner p{
+        font-size: 25px;
+    }
+}
+
+@media only screen and (max-width:1080px){
+    #banner h1{
+        font-size: 60px;
+        margin-top: 70px;
+    }
+
+    #banner p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:935px){
+    #banner h1{
+        font-size: 40px;
+        margin-top: 50px;
+    }
+
+    #banner p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:350px){
+    #banner h1{
+        font-size: 35px;
+        margin-top: 20px;
+    }
+
+    #banner p{
+        font-size: 15px;
+    }
+    #banner-btn-1{
+        color: white;
+        margin-left: 20px;
+        margin-left: 0px;
+        border: 3px solid #00bec9;
+    }
+    #banner-btn-2{
+        color: white;
+        margin-left: 5px;
+        border: 3px solid white;
+    }
+}
+
+@media only screen and (max-width:320px){
+    #banner-btn-2{
+        margin-left: 0px;
+        margin-top: 10px;
+        display: block;
+    }
+}
