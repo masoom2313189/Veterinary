@@ -150,3 +150,233 @@
         display: block;
     }
 }
+
+
+/* Service */
+#service{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#service-text h1{
+    font-size: 55px;
+}
+
+#service-text p{
+    font-size: 25px;
+}
+
+#service-btn{
+    padding: 15px 30px;
+    background-color: #fcc302;
+    font-weight: bold;
+    font-size: 20px;
+    color: white;
+}
+
+@media only screen and (max-width:1025px){
+    #service-text h1{
+        font-size: 50px;
+    }
+    #service-text p{
+        font-size: 20px;
+    }
+}
+
+@media only screen and (max-width:940px){
+    #service-text h1{
+        margin-top: 40px;
+        font-size: 35px;
+    }
+    #service-text p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:825px){
+    #service-text h1{
+        font-size: 30px;
+    }
+    #service-text p{
+        font-size: 15px;
+    }
+}
+
+@media only screen and (max-width:330px){
+    #service-text h1{
+        font-size: 25px;
+        font-weight: bold;
+    }
+    #service-text p{
+        font-size: 15px;
+    }
+}
+
+/* Title  */
+#title{
+    background-color:#fcc302;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width:800px){
+    #title-text h1{
+        font-size: 70px;
+    }
+    #title-text p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+}
+
+/* Service 2  */
+#service2{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+@media only screen and (min-width:1000px){
+    #service2-text h1{
+        margin-top: 50px;
+    }
+}
+
+/* Title 2  */
+#title2-text button{
+    padding: 10px 30px;
+    background-color: #00bec9;
+}
+
+#title2-text h1 span:first-child{
+    text-decoration:line-through;
+}
+
+#title2-text h1{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+/* Team  */
+#team{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media only screen and (min-width:800px){
+    #team-text h1{
+        font-size: 70px;
+    }
+    #team-text p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+}
+
+#team-img-text img{
+    margin-bottom: 20px;
+}
+
+#team-icon{
+    font-size: 30px;
+    color: #fcc302;
+    margin-bottom: 30px;
+}
+
+@media only screen and (min-width:765px) and (max-width:960px){
+#team-img-text h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+#team-img-text h2{
+    font-size: 20px;
+}
+#team-icon{
+    font-size: 20px;
+}
+}
+
+/* Counter  */
+#counter{
+background-image: url(/Images/bg.png);
+  background-color: #fcc302;
+  background-size: cover;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  color: white;
+}
+
+@media only screen and (min-width:765px) and (max-width:1000px){
+    #counter>div h1:last-child{
+        font-size: 25px;
+    }
+}
+
+/* Post  */
+
+#post{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+@media only screen and (min-width:800px){
+    #post-text h1{
+        font-size: 70px;
+    }
+    #post-text p{
+        font-size: 25px;
+        margin-bottom: 50px;
+    }
+}
+
+#post-img-text>div{
+    border: 1px solid gray;
+    border-top: none;
+    padding: 10px;
+}
+
+#post-img-text h2+p, #post-img-text a {
+    color: #00bec9;
+}
+
+/* Footer  */
+#footer{
+    background-color: #343434;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+#footer-icon{
+    font-size: 25px;
+}
+
+#footer-search{
+    background-color: #fcc302;
+    border: none;
+    padding: 15px;
+}
+
+#footer-btn{
+    background-color: #00bec9;
+    border: none;
+    padding: 15px 30px;
+    margin-bottom: 10px;
+    margin-left: -5px;
+}
+
+#footer a {
+    text-decoration: none;
+    color: white;
+}
+
+@media only screen and (max-width:360px){
+    #footer-search{
+        width: 150px;
+    }
+}
+
+#last{
+    background-color:indigo;
+    padding: 5px;
+}
+
+#last i {
+    color: green;
+}
